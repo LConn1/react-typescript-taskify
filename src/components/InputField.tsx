@@ -25,7 +25,7 @@ const InputField: React.FC<Props> = ({ toDo, setToDo, handleAdd }) => {
         onChange={(e) => setToDo(e.target.value)}
         placeholder="Enter a task"
         className="input_box"
-      ></input>
+      />
       <button className="input_submit" type="submit">
         Go
       </button>
